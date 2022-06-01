@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 v.setImageResource(R.drawable.cross);
                 gameState[tag] = player;
                 Toast.makeText(this, tag + "" + "Cross", Toast.LENGTH_SHORT).show();
-                player = 0; //zero player
+                player = 0; //here zero player 
             } else {
                 v.setImageResource(R.drawable.zero);
                 gameState[tag] = player;
